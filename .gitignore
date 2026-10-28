@@ -25,7 +25,7 @@ images/
 rjavaenv/
 
 # Data folder
-/Data/r5r-log.log
+/Data/*.log
 *.dat
 *.json
 *.osm.pbf
