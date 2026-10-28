@@ -1,0 +1,36 @@
+# RStudio Files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+
+# Other extraneous files in main folder
+hospital_access_map.html
+run_all.R
+
+
+*.dbf
+*.prj
+*.shp
+*.shx
+*.gpkg
+
+/*.jpg
+/*.png
+
+# Folders
+Archive/
+images/
+rjavaenv/
+
+# Data folder
+/Data/r5r-log.txt
+*.dat
+*.json
+*.osm.pbf
+*.osm.pbf.mapdb
+*.osm.pbf.mapdb.p
+
+#Extra QMD files
+Packages/**/*.qmd

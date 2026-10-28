@@ -1,0 +1,24 @@
+12:39:16.097 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:16.469 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:16.485 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:16.486 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:17.531 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:17.952 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:18.313 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:19.210 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:19.581 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:19.871 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:19.884 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:20.025 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:20.205 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:20.856 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:20.868 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:21.224 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:21.478 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:21.502 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:22.509 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:39:23.769 [WARN ] org.ipea.r5r.Planner.TripPlanner - Direct mode CAR last state wasn't found
+12:41:35.913 [INFO ] org.ipea.r5r.Process.R5Process - 1 out of 1 origins processed.
+12:41:35.915 [INFO ] org.ipea.r5r.Process.R5Process - .. DONE!
+12:41:35.915 [INFO ] org.ipea.r5r.Process.R5Process - Consolidating results...
+12:41:35.916 [INFO ] org.ipea.r5r.Process.R5Process -  DONE!

@@ -1,0 +1,95 @@
+---
+title: "run_all"
+format: html
+---
+Required Packages
+```{r}
+required_packages <- c(
+  "tigris",
+  "geodata",
+  "tidycensus",
+  "tidygeocoder",
+  "sf",
+  "terra",
+  "r5r",
+  "spdep",
+  "leaflet",
+  "mapview",
+  "dplyr",
+  "htmltools",
+  "rJavaEnv"
+)
+
+missing_packages <- required_packages[
+  !required_packages %in% installed.packages()[,"Package"]
+]
+
+if(length(missing_packages) > 0){
+  install.packages(missing_packages)
+}
+```
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+if (Sys.getenv("CENSUS_API_KEY") == "") {
+  stop(
+    paste(
+      "A Census API key is required.",
+      "Obtain one at:",
+      "https://api.census.gov/data/key_signup.html",
+      "and install it using tidycensus::census_api_key()."
+    )
+  )
+}
+```
+
+Data Acquisition
+Boundary Data
+```{r}
+#Tigris
+source("Packages/Data Acquisition/Boundary Data/tigris.R")
+
+#gadm
+source("Packages/Data Acquisition/Boundary Data/gadm.R")
+```
+Census Data
+```{r}
+#tidycensus
+source("Packages/Data Acquisition/Census Data/tidycensus.R")
+```
+Geocoding
+```{r}
+#tidygeocoder
+source("Packages/Geocoding/tidygeocoder.R")
+```
+Geoprocessing
+```{r}
+#sf
+source("Packages/Geoprocessing/sf.R")
+
+#terra
+source("Packages/Geoprocessing/terra.R")
+```
+
+Routing
+```{r}
+#r5r
+source("Packages/Routing/r5r.R")
+```
+Spatial Statistics
+```{r}
+#spdep
+source("Packages/Spatial Statistics/spdep.R")
+```
+Visualization
+```{r}
+#leaflet
+source("Packages/Visualization/leaflet.R")
+
+#mapview
+source("Packages/Visualization/mapview.R")
+```
+
